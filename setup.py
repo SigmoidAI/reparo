@@ -36,8 +36,8 @@ setup(
   license='MIT',
   description = 'Reparo is a python sci-kit learn inspired package for Missing Value Imputation.',
   long_description=long_description,
-  author = 'SigmoidAI - Păpăluță Vasile',
-  author_email = 'vpapaluta06@gmail.com',
+  author = 'SigmoidAI - Stojoc Vladimir',
+  author_email = 'vladimir.stojoc@gmail.com',
   url = 'https://github.com/SigmoidAI/reparo',
   download_url = 'https://github.com/ScienceKot/kydavra/archive/v1.0.tar.gz',    # I explain this later on
   keywords = ['ml', 'machine learning', 'feature engineering', 'python', 'data science'],   # Keywords that define your package best
