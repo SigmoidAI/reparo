@@ -119,7 +119,7 @@ class FRNNI(BaseEstimator, TransformerMixin):
 
         return self.fit(X).transform(X)
 
-    def apply(self, df: 'pandas DataFrame', columns: 'list'):
+    def apply(self, df: 'pd.DataFrame', columns: 'list'):
         """
         Apply the algorithm on a DataFrame
         :param df: pandas DataFrame

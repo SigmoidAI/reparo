@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 long_description = '''
 Reparo is a python sci-kit learn inspired package for Missing Value Imputation. It contains a some feature transformers to eliminate Missing Values (NaNs) from your data for Machine Learning Algorithms.\n
 This version of reparo has the next methods of missing value imputation:\n
@@ -32,7 +32,7 @@ We are open for feedback. Please send your impression to papaluta.vasile@isa.utm
 setup(
   name = 'reparo',
   packages = ['reparo'],
-  version = '0.1.0',
+  version = '0.0.4',
   license='MIT',
   description = 'Reparo is a python sci-kit learn inspired package for Missing Value Imputation.',
   long_description=long_description,
