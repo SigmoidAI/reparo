@@ -32,7 +32,7 @@ We are open for feedback. Please send your impression to papaluta.vasile@isa.utm
 setup(
   name = 'reparo',
   packages = ['reparo'],
-  version = '0.0.4',
+  version = '0.0.5',
   license='MIT',
   description = 'Reparo is a python sci-kit learn inspired package for Missing Value Imputation.',
   long_description=long_description,
