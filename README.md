@@ -18,29 +18,41 @@ Additionally every reparo transformer has an apply function which allows to appl
 # How to use reparo
 To use a transformer from reparo you should just import the transformer from reparo in the following framework:
 
-```from reparo import <class name>```
+```python
+from reparo import MICE
+```
 
 class names are written above in parantheses.
 
 Next create a object of this algorithm (I will use k-Nearest Neighbors Imputation as an example).
 
-```method = KNNI()```
+```python
+method = KNNI()
+```
 
 Firstly you should fit the transformer, passing to it a feature matrix (X) and the target array (y). y argument is not really used (as it causes data leackage)
 
-```method.fit(X, y)```
+```python
+method.fit(X, y)
+```
 
 After you fit the model, you can use it for transforming new data, using the transform function. To transform function you should pass only the feature matrix (X).
 
-```X_transformed = method.transform(X)```
+```python
+X_transformed = method.transform(X)
+```
 
 Also you can fit and transform the data at the same time using the fit_transform function.
 
-```X_transformed = method.fit_transform(X)```
+```python
+X_transformed = method.fit_transform(X)
+```
 
 Also you can apply a transformation directly on a pandas DataFrame, choosing the columns that you want to change.
 
-```new_df = method.apply(df, 'target', ['col1', 'col2'])```
+```python
+new_df = method.apply(df, 'target', ['col1', 'col2'])
+```
 
 With <3 from Sigmoid.
-We are open for feedback. Please send your impression to papaluta.vasile@isa.utm.md
+We are open for feedback. Please send your impression to vladimir.stojoc@gmail.com
